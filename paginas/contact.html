@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+
+    <!-- Titulo -->
+    <title>ALE OLVERA-UX UI Work</title>
+</head>
+
+<body>
+    <!-- logo -->
+    <header><img class="img-header" src="../assets/img/logo-aleOlvera.png"></header>
+
+    <!-- Menu -->
+    <nav id="barra-navegacion">
+        <ul>
+            <li>
+                <a href="../index.html">HOME</a>
+            </li>
+        
+            <li>
+                <a href="../paginas/ux-ui.html">UX UI</a>
+            </li>
+
+            <li>
+                <a href="../paginas/design.html">DESIGN</a>
+            </li>
+
+            <li>
+                <a href="../paginas/degrees.html">DEGREES</a>
+            </li>
+
+            <li class="pag-visit">
+                <a href="#"><h4>CONTACT</h4></a>
+            </li>
+        </ul>
+    </nav>  
+
+    <main class="form">
+        <form action="procesar.php" method="post">
+        
+        <!--Input Nombre-->
+        <div>
+            <label for="nombre">Name</label>
+            <input type="text" name="nombre" placeholder="What's your name? Don't be shy">
+        </div>
+        
+        <div>
+            <!--Input email-->
+            <label for="email">E-mail</label>
+            <input type="email" name="email" placeholder="I want to hear from you...">
+        </div>
+
+        <div>
+            <!--Input number-->
+            <label for="number">Number</label>
+            <input type="number" name="number" placeholder="Cel or Tel">
+        </div>
+    
+        <!--Texta area-->
+        <h3>Message</h3>
+        <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+    
+        <br>
+            <button class="btn btn:hover" type="submit">Send</button>
+            <button class="btn2 btn:hover" type="reset">Cancel</button>
+        </br>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h3>LET'S WORK TOGETHER!</h3>
+        </div>
+
+        <div>
+            <img class="img-footer" src="../assets/img/redes.png" alt="my-social-media"> 
+        </div>
+
+        <div>
+            Copyright &copy; 2023 ALE OLVERA - All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
