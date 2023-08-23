@@ -1,14 +1,5 @@
-/*Tipografías*/
-/*fuente local*/
-@font-face {
-    font-family: fuente-principal;
-    src: url('../assets/font/Inter-Regular.ttf');
-}
-
-body{
-    font-family: fuente-principal, sans-serif;
-}
-
+@import "colores";
+@import "tipografia";
 
 
 /*Selector de tipo reset o universal*/
@@ -17,31 +8,35 @@ body{
     padding: 0;
 }
 
+body{
+    font-family: $fuente-principal, sans-serif;
+}
+
 
 
 /* Barra navegadora */
 #barra-navegacion{
-    background-color: #0F1115; 
+    background-color: $color-primario; 
 }
 
 a{
     text-decoration: none;
-    color: #FFFFF9;
+    color: $color-secundario;
 }
 
 .pag-visit{
     text-decoration-line: underline; 
     text-decoration-style:solid;
     text-decoration-thickness: 4px; 
-    text-decoration-color: #22D200;
+    text-decoration-color: $color-acento;
 }
 
 
 
 /* Header */
-header{
-    background-color: #0F1115;
-    color: #FFFFF9;
+.header{
+    background-color: $color-primario;
+    color: $color-secundario;
 }
 
 .img-header{
@@ -51,9 +46,8 @@ header{
 
 
 /* Main Home */
-main{
-    background-color: #0F1115;
-    color: #FFFFF9;
+.main{
+    @extend .header;
 }
 
 .img-main{
@@ -66,20 +60,21 @@ main{
     background-image: -moz-linear-gradient(top, #22D200, #27b30b);
     background-image: -ms-linear-gradient(top, #22D200, #27b30b);
     background-image: -o-linear-gradient(top, #22D200, #27b30b);
-    background-image: linear-gradient(to bottom, #22D200, #27b30b);
+    background-image: linear-gradient(to bottom, $color-acento, #27b30b);
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0px;
-    font-family: fuente-principal;
-    color: #FFFFF9;
+    font-family: $fuente-principal;
+    color: $color-secundario;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
 
 .btn:hover {
-    background: #22D200;
+    background: $color-acento;
     text-decoration: none;
+    color: $color-secundario;
 }
 
 .img-arrow {
@@ -90,22 +85,22 @@ main{
 
 /* Main Contact */
 .form {
-    background-color: #FFFFF9;
-    color: #0F1115;
+    background-color: $color-secundario;
+    color: $color-primario;
 }
 
 .btn2 {
-    background: #0F1115;
-    background-image: -webkit-linear-gradient(top, #0F1115, #000000);
-    background-image: -moz-linear-gradient(top, #0F1115, #000000);
-    background-image: -ms-linear-gradient(top, #0F1115, #000000);
-    background-image: -o-linear-gradient(top, #0F1115, #000000);
-    background-image: linear-gradient(to bottom, #0F1115, #000000);
+    background: $color-primario;
+    background-image: -webkit-linear-gradient(top, $color-primario, #000000);
+    background-image: -moz-linear-gradient(top, $color-primario, #000000);
+    background-image: -ms-linear-gradient(top, $color-primario, #000000);
+    background-image: -o-linear-gradient(top, $color-primario, #000000);
+    background-image: linear-gradient(to bottom, $color-primario, #000000);
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0px;
-    font-family: fuente-principal;
-    color: #FFFFF9;
+    font-family: $fuente-principal;
+    color: $color-secundario;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
@@ -121,8 +116,8 @@ main{
 
 /* footer */
 footer {
-    background-color: #0F1115;
-    color: #FFFFF9;
+    background-color: $color-primario;
+    color: $color-secundario;
 }
 
 .img-footer {
