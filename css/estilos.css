@@ -1,45 +1,62 @@
-@charset "UTF-8";
-/* Esta es la paleta de colores elegida para la página */
-/* Tipografías elegídas */
+/*Tipografías*/
+/*fuente local*/
+@font-face {
+  font-family: fuente-principal;
+  src: url('../assets/font/Inter-Regular.ttf');
+}
+
+body{
+  font-family: fuente-principal, sans-serif;
+}
+
+
+
 /*Selector de tipo reset o universal*/
-* {
+*{
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: src url("../assets/font/Inter-Regular.ttf"), sans-serif;
-}
+
 
 /* Barra navegadora */
-#barra-navegacion {
-  background-color: #0F1115;
+#barra-navegacion{
+  background-color: #0F1115; 
 }
 
-a {
+a{
   text-decoration: none;
   color: #FFFFF9;
 }
 
-.pag-visit {
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-thickness: 4px;
+.pag-visit{
+  text-decoration-line: underline; 
+  text-decoration-style:solid;
+  text-decoration-thickness: 4px; 
   text-decoration-color: #22D200;
 }
 
+
+
 /* Header */
-.header, .main {
+header{
   background-color: #0F1115;
   color: #FFFFF9;
 }
 
-.img-header {
+.img-header{
   width: 10%;
 }
 
+
+
 /* Main Home */
-.img-main {
+main{
+  background-color: #0F1115;
+  color: #FFFFF9;
+}
+
+.img-main{
   width: 50%;
 }
 
@@ -53,7 +70,7 @@ a {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0px;
-  font-family: src url("../assets/font/Inter-Regular.ttf");
+  font-family: fuente-principal;
   color: #FFFFF9;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -63,12 +80,13 @@ a {
 .btn:hover {
   background: #22D200;
   text-decoration: none;
-  color: #FFFFF9;
 }
 
 .img-arrow {
   width: 20px;
 }
+
+
 
 /* Main Contact */
 .form {
@@ -86,17 +104,20 @@ a {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0px;
-  font-family: src url("../assets/font/Inter-Regular.ttf");
+  font-family: fuente-principal;
   color: #FFFFF9;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
+
 /* Section 1 Home */
 .img-portada {
   width: 50%;
 }
+
+
 
 /* footer */
 footer {
@@ -107,5 +128,3 @@ footer {
 .img-footer {
   width: 20%;
 }
-
-/*# sourceMappingURL=estilos.css.map */
