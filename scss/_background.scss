@@ -1,0 +1,14 @@
+/* Backgrounds */
+
+@mixin backgroundcolor($colorBack,$colorText){
+    background-color: $colorBack;
+    color: $colorText;
+}
+
+.back{
+    @include backgroundcolor($color-primario,$color-secundario)
+}
+
+.backSecundario{
+    @include backgroundcolor($color-secundario,$color-primario)
+}

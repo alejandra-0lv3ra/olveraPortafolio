@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- SEO -->
+    <!-- Descripción -->
+    <meta name="description" content="Hola soy Ale Olvera, UX/UI Designer | Frontend Dev React Student | Sr. Visual Designer y este es mi portafolio.">
+
+    <!-- Keywords -->
+    <meta name="keywords" content="Portafolio, design-portafolio-website, best-ux-ui-portafolios,portfolio-front-end-junior, ux-ui-designer-portfolio, frontend-portfolio, designer-portfolio, frontend-portfolio-projects, frontend-portfolio-github">
+
     <!--Favicon-->
     <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
 
@@ -21,91 +28,120 @@
 </head>
 
 <body>
-    <!-- logo -->
-    <header><img class="img-header" src="./assets/img/logo-aleOlvera.png"></header>
 
     <!-- Menu -->
-    <nav id="barra-navegacion">
-        <ul>
-            <li class="pag-visit">
-                <a href="#"><h4>HOME</h4></a>
-            </li>
-        
-            <li>
-                <a href="./paginas/ux-ui.html">UX UI</a>
-            </li>
+    <nav class="barra-navegacion navbar navbar-dark navbar-expand-lg">
+        <div class="ms-5 container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo-aleOlvera.png" alt="Logo" width="170">
+            </a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse ps-5 " id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="pag-visit nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./paginas/ux-ui.html">UX UI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./paginas/design.html">DESIGN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./paginas/degrees.html">DEGREES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./paginas/contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
 
-            <li>
-                <a href="./paginas/design.html">DESIGN</a>
-            </li>
-
-            <li>
-                <a href="./paginas/degrees.html">DEGREES</a>
-            </li>
-
-            <li>
-                <a href="./paginas/contact.html">CONTACT</a>
-            </li>
-        </ul>
-    </nav>  
 
     <!-- Main -->
-    <main>
-        <div class="col-md-8 container text-end">
-            <img class="img-main img-fluid"  src="./assets/img/ale-home.png" alt="picOfMe">
-        </div>
-
-        <div class="col-md-4 container text-start">
-            <h1>Let your success speak for itself.</h1>
-            <p>UX/UI Designer | Frontend Dev React Student | Sr. Visual Designer</p>
-            <button class="btn btn:hover">Let's do it together</button>
+    <main class="back">
+        <br>
+        <div class="container text-center">
+            <div class="row">
+                <div class="ps-5 col-md-4 col align-self-center container text-start">
+                    <h1>Let your success speak for itself.</h1>
+                    <p>UX/UI Designer | Frontend Dev React Student | Sr. Visual Designer</p>
+                    <button class="btn btn:hover">Let's do it together</button>
+                </div>
+            
+                <div class="col-md-8 col align-self-start container text-center">
+                    <img class="img-main img-fluid"  src="./assets/img/ale-home.png" alt="picOfMe">
+                </div>  
+            </div>     
         </div>
 
         <div class="col-md-8 container text-center">
-            <img class="img-arrow img-fluid" src="./assets/img/arrow.png" alt="arrow">
+            <br> 
+                <img class="img-arrow img-fluid" src="./assets/img/arrow.png" alt="arrow">
+            </br>    
         </div>
+        </div>
+        </br>
     </main>
 
+    <div class="backSecundario">
     <!-- Section 1 -->
-    <div class="col-md-8 container text-center">
+    <div class="pt-5 col-md-8 container text-center">
         <br>
             <h2 class=>Hello!</h2>
         </br>
     </div>         
 
-    <div class="col-md-8 container text-center">
-        <br>
-            <p class="text-center">I'm Ale, a design rockstar with a little over 6 years of experience. I specialize in Graphic Design and UX/UI Design, and I'm currently studying Frontend Development with React. I have a strong passion for continuous learning and staying up-to-date with the latest trends. In my free time, I enjoy listening to good music and watching movies with my loved ones. I'm known for my creativity, friendliness, and sense of responsibility. Teamwork is my lucky charm, and I always strive to give my best, putting in 200% effort without making excuses!</p>
-        </br>
+    <div class="pb-5 col-md-6 container text-center">
+        <p class="text-center">I'm Ale, a design rockstar with a little over 6 years of experience. I specialize in Graphic Design and UX/UI Design, and I'm currently studying Frontend Development with React. I have a strong passion for continuous learning and staying up-to-date with the latest trends. In my free time, I enjoy listening to good music and watching movies with my loved ones. I'm known for my creativity, friendliness, and sense of responsibility. Teamwork is my lucky charm, and I always strive to give my best, putting in 200% effort without making excuses!</p>
     </div>
 
-    <br>
-        <div>
-            <img class="img-portada img-fluid" src="./assets/img/design-portada.jpg" alt="design-work">
-            <h3>Beyond a mere image.</h3>
-            <p>Stand out with cutting-edge and captivating designs. Drive your brand forward with creativity and style, setting yourself apart from the competition. Attract, engage, and conquer on social media, creating an impactful online presence. Make your brand shine and captivate your followers!</p>
-            <button class="btn btn:hover">SEE MY WORK!</button>
+    <!-- Section 2 -->
+    <div class="container text-center">
+        <div class="row">
+            
+            <!-- CARD 1 -->
+            <div class="pb-5 col-md-6 col align-self-center container text-start">
+                <img src="./assets/img/design-portada.jpg" alt="design-work" width="500">
+            </div>
+            <div class="pb-5 col-md-5 col align-self-center container text-start">
+                <h5>Beyond a mere image.</h5>
+                <p>Stand out with cutting-edge and captivating designs. Drive your brand forward with creativity and style, setting yourself apart from the competition. Attract, engage, and conquer on social media, creating an impactful online presence. Make your brand shine and captivate your followers!</p>
+                <button class="btn btn:hover">SEE MY WORK!</button>
+            </div>
+        
+            <!-- CARD2 -->
+            <div class="pb-5 col-md-5 col align-self-center container text-start">
+                <h5>Beauty alone won't cut it, make it user-friendly.</h5>
+                <p>Create top-notch exceptional user experiences. Drive user satisfaction and loyalty by providing intuitive and captivating interfaces. Turn your ideas into reality and stand out in the digital market. Optimize your users' experience and achieve success! Together, we will build an experience that makes a lasting impact.</p>
+                <button class="btn btn:hover">SEE THIS ONE TOO!</button>
+            </div>
+            <div class="pb-5 col-md-6 col align-self-center container text-start">
+                    <img src="./assets/img/uxui-portada.jpg" alt="ux-ui-work" width="500">
+            </div>  
         </div>
-
-        <div>
-            <img class="img-portada img-fluid" src="./assets/img/uxui-portada.jpg" alt="design-work">
-            <h3>Beauty alone won't cut it, make it user-friendly.</h3>
-            <p>Create top-notch exceptional user experiences. Drive user satisfaction and loyalty by providing intuitive and captivating interfaces. Turn your ideas into reality and stand out in the digital market. Optimize your users' experience and achieve success! Together, we will build an experience that makes a lasting impact.</p>
-            <button class="btn btn:hover">SEE THIS ONE TOO!</button>
-        </div>
-    </br>    
+    </div>
+    </div>
 
     <!-- Footer -->
     <footer>
-        <div>
-            <h3>LET'S WORK TOGETHER!</h3>
+        <div class="pb-2 pt-5 col-md-8 container text-center">
+            <h5>LET'S WORK TOGETHER!</h5>
         </div>
 
-        <div>
+        <div class="pb-5 col-md-6 container text-center">
             <img class="img-footer img-fluid" src="./assets/img/redes.png" alt="my-social-media"> 
         </div>
 
-        <div>
+        <div class="pb-2 col-md-6 container text-center">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo-aleOlvera.png" alt="Logo" width="180">
+            </a> 
+        </div>  
+        <div class="pb-5 col-md-3 container text-center">
             Copyright &copy; 2023 ALE OLVERA - All rights reserved.
         </div>
     </footer>

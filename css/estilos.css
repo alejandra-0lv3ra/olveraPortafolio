@@ -1,62 +1,45 @@
-/*Tipografías*/
-/*fuente local*/
-@font-face {
-  font-family: fuente-principal;
-  src: url('../assets/font/Inter-Regular.ttf');
+@charset "UTF-8";
+/* Esta es la paleta de colores elegida para la página */
+/* Tipografías elegídas */
+/* Backgrounds */
+.back, .main {
+  background-color: #0F1115;
+  color: #FFFFF9;
 }
 
-body{
-  font-family: fuente-principal, sans-serif;
+.backSecundario {
+  background-color: #FFFFF9;
+  color: #0F1115;
 }
-
-
 
 /*Selector de tipo reset o universal*/
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-
+body {
+  font-family: src url("../assets/font/Inter-Regular.ttf"), sans-serif;
+}
 
 /* Barra navegadora */
-#barra-navegacion{
-  background-color: #0F1115; 
-}
-
-a{
+.barra-navegacion {
+  text-decoration-color: #FFFFF9;
+  background-color: #0F1115;
   text-decoration: none;
-  color: #FFFFF9;
+  font-size: 18px;
 }
 
-.pag-visit{
-  text-decoration-line: underline; 
-  text-decoration-style:solid;
-  text-decoration-thickness: 4px; 
+.pag-visit {
+  text-decoration-line: underline;
+  font-weight: bold;
+  text-decoration-style: solid;
+  text-decoration-thickness: 4px;
   text-decoration-color: #22D200;
 }
 
-
-
-/* Header */
-header{
-  background-color: #0F1115;
-  color: #FFFFF9;
-}
-
-.img-header{
-  width: 10%;
-}
-
-
-
 /* Main Home */
-main{
-  background-color: #0F1115;
-  color: #FFFFF9;
-}
-
-.img-main{
+.img-main {
   width: 50%;
 }
 
@@ -70,7 +53,7 @@ main{
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0px;
-  font-family: fuente-principal;
+  font-family: src url("../assets/font/Inter-Regular.ttf");
   color: #FFFFF9;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -80,13 +63,12 @@ main{
 .btn:hover {
   background: #22D200;
   text-decoration: none;
+  color: #FFFFF9;
 }
 
 .img-arrow {
   width: 20px;
 }
-
-
 
 /* Main Contact */
 .form {
@@ -104,20 +86,12 @@ main{
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0px;
-  font-family: fuente-principal;
+  font-family: src url("../assets/font/Inter-Regular.ttf");
   color: #FFFFF9;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
-
-
-/* Section 1 Home */
-.img-portada {
-  width: 50%;
-}
-
-
 
 /* footer */
 footer {
@@ -128,3 +102,5 @@ footer {
 .img-footer {
   width: 20%;
 }
+
+/*# sourceMappingURL=estilos.css.map */
