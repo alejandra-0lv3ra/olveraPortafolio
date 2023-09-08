@@ -33,7 +33,7 @@
     <nav class="barra-navegacion navbar navbar-dark navbar-expand-lg">
         <div class="ms-5 container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="./assets/img/logo-aleOlvera.png" alt="Logo" width="170">
+                <img class="img-fluid" src="./assets/img/logo-aleOlvera.png" alt="Logo" width="170">
             </a> 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -63,35 +63,35 @@
 
     <!-- Main -->
     <main class="back">
-        <br>
         <div class="container text-center">
-            <div class="row">
-                <div class="ps-5 col-md-4 col align-self-center container text-start">
-                    <h1>Let your success speak for itself.</h1>
-                    <p>UX/UI Designer | Frontend Dev React Student | Sr. Visual Designer</p>
-                    <button class="btn btn:hover">Let's do it together</button>
-                </div>
-            
-                <div class="col-md-8 col align-self-start container text-center">
-                    <img class="img-main img-fluid"  src="./assets/img/ale-home.png" alt="picOfMe">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-lg-6">
+                    <img class="img-fluid" src="./assets/img/ale-home.png" alt="picOfMe" width="600">
                 </div>  
+
+                <div class="col-sm-12 col-lg-6">
+                    <h1 class="fw-bolder">Let your success speak for itself.</h1>
+                    <p>UX/UI Designer | Frontend Dev React Student | Sr. Visual Designer</p>
+                    <a href="./paginas/contact.html">
+                        <button class="btn btn:hover">Let's do it together</button>
+                    </a>    
+                </div>
             </div>     
         </div>
 
-        <div class="col-md-8 container text-center">
+        <div class="pb-5 container text-center">
             <br> 
                 <img class="img-arrow img-fluid" src="./assets/img/arrow.png" alt="arrow">
             </br>    
         </div>
         </div>
-        </br>
     </main>
 
     <div class="backSecundario">
     <!-- Section 1 -->
-    <div class="pt-5 col-md-8 container text-center">
+    <div class="col-sm-12 pt-5 col-md-7 container text-center">
         <br>
-            <h2 class=>Hello!</h2>
+            <h2 class="fw-bolder">Hello!</h2>
         </br>
     </div>         
 
@@ -101,47 +101,54 @@
 
     <!-- Section 2 -->
     <div class="container text-center">
-        <div class="row">
+        <div class="row align-items-center">
             
             <!-- CARD 1 -->
-            <div class="pb-5 col-md-6 col align-self-center container text-start">
-                <img src="./assets/img/design-portada.jpg" alt="design-work" width="500">
+            <div class="pb-2 col-sm-12 col-lg-6">
+                <img class="img-fluid" src="./assets/img/design-portada.jpg" alt="design-work" width="500">
             </div>
-            <div class="pb-5 col-md-5 col align-self-center container text-start">
-                <h5>Beyond a mere image.</h5>
+            <div class="col-sm-12 col-lg-6">
+                <h5 class="fw-bolder">Beyond a mere image.</h5>
                 <p>Stand out with cutting-edge and captivating designs. Drive your brand forward with creativity and style, setting yourself apart from the competition. Attract, engage, and conquer on social media, creating an impactful online presence. Make your brand shine and captivate your followers!</p>
-                <button class="btn btn:hover">SEE MY WORK!</button>
+                <a href="./paginas/design.html">    
+                    <button class="btn btn:hover">See my work!</button>
+                </a>    
             </div>
         
             <!-- CARD2 -->
-            <div class="pb-5 col-md-5 col align-self-center container text-start">
-                <h5>Beauty alone won't cut it, make it user-friendly.</h5>
+            <div class="pb-2 pt-5 col-lg-6">
+                <img class="img-fluid" src="./assets/img/uxui-portada.jpg" alt="ux-ui-work" width="500">
+            </div> 
+
+            <div class="pb-5 col-sm-12 col-lg-6">
+                <h5 class="fw-bolder">Beauty alone won't cut it, make it user-friendly.</h5>
                 <p>Create top-notch exceptional user experiences. Drive user satisfaction and loyalty by providing intuitive and captivating interfaces. Turn your ideas into reality and stand out in the digital market. Optimize your users' experience and achieve success! Together, we will build an experience that makes a lasting impact.</p>
-                <button class="btn btn:hover">SEE THIS ONE TOO!</button>
-            </div>
-            <div class="pb-5 col-md-6 col align-self-center container text-start">
-                    <img src="./assets/img/uxui-portada.jpg" alt="ux-ui-work" width="500">
-            </div>  
+                <a href="./paginas/ux-ui.html">
+                    <button class="btn btn:hover">See this one too!</button>
+                </a>    
+            </div> 
         </div>
     </div>
     </div>
 
     <!-- Footer -->
-    <footer>
-        <div class="pb-2 pt-5 col-md-8 container text-center">
-            <h5>LET'S WORK TOGETHER!</h5>
-        </div>
+    <footer class="back">
+        <a class="pag-visit" href="https://linktr.ee/Ale.Olv3ra?utm_source=linktree_admin_share">
+            <div class="col-sm-6 container text-center pt-5 pb-2">
+                <img class="img-footer img-fluid" src="./assets/img/werk.png" alt="my-social-media" width="40"> 
+            </div>
+        
+            <div class="col-sm-6 container text-center pb-5">
+                <h5 class="fw-bolder">LET'S WORK TOGETHER!</h5>
+            </div> 
+        </a>     
 
-        <div class="pb-5 col-md-6 container text-center">
-            <img class="img-footer img-fluid" src="./assets/img/redes.png" alt="my-social-media"> 
-        </div>
-
-        <div class="pb-2 col-md-6 container text-center">
+        <div class="pb-2 col-sm-12 container text-center">
             <a class="navbar-brand" href="#">
-                <img src="./assets/img/logo-aleOlvera.png" alt="Logo" width="180">
+                <img class="img-fluid" src="./assets/img/logo-aleOlvera.png" alt="Logo" width="180">
             </a> 
         </div>  
-        <div class="pb-5 col-md-3 container text-center">
+        <div class="pb-5 col-sm-12 container text-center">
             Copyright &copy; 2023 ALE OLVERA - All rights reserved.
         </div>
     </footer>

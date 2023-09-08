@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- SEO -->
+    <!-- Descripción -->
+    <meta name="description" content="Hola soy Ale Olvera, UX/UI Designer | Frontend Dev React Student | Sr. Visual Designer y este es mi portafolio.">
+
+    <!-- Keywords -->
+    <meta name="keywords" content="Portafolio, design-portafolio-website, best-ux-ui-portafolios,portfolio-front-end-junior, ux-ui-designer-portfolio, frontend-portfolio, designer-portfolio, frontend-portfolio-projects, frontend-portfolio-github">
+
     <!--Favicon-->
     <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
 
@@ -14,40 +21,44 @@
     <script src="../libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
     <!-- Titulo -->
-    <title>ALE OLVERA-CONTACT</title>
+    <title>ALE OLVERA-DEGREES</title>
 </head>
 
 <body>
-    <!-- logo -->
-    <header><img class="img-header" src="../assets/img/logo-aleOlvera.png"></header>
 
     <!-- Menu -->
-    <nav id="barra-navegacion">
-        <ul>
-            <li>
-                <a href="../index.html">HOME</a>
-            </li>
-        
-            <li>
-                <a href="../paginas/ux-ui.html">UX UI</a>
-            </li>
-
-            <li>
-                <a href="../paginas/design.html">DESIGN</a>
-            </li>
-
-            <li>
-                <a href="../paginas/degrees.html">DEGREES</a>
-            </li>
-
-            <li class="pag-visit">
-                <a href="#"><h4>CONTACT</h4></a>
-            </li>
-        </ul>
-    </nav>  
+    <nav class="barra-navegacion navbar navbar-dark navbar-expand-lg">
+        <div class="ms-5 container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img class="img-fluid" src="../assets/img/logo-aleOlvera.png" alt="Logo" width="170">
+            </a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse ps-5 " id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">UX UI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../paginas/design.html">DESIGN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../paginas/degrees.html">DEGREES</a>
+                </li>
+                <li class="pag-visit nav-item">
+                    <a class="nav-link active" href="../paginas/contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav> 
 
     <main class="form">
         <form action="procesar.php" method="post">
@@ -82,16 +93,23 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div>
-            <h3>LET'S WORK TOGETHER!</h3>
-        </div>
+    <footer class="back">
+        <a class="pag-visit" href="https://linktr.ee/Ale.Olv3ra?utm_source=linktree_admin_share">
+            <div class="col-sm-6 container text-center pt-5 pb-2">
+                <img class="img-footer img-fluid" src="../assets/img/werk.png" alt="my-social-media" width="40"> 
+            </div>
+        
+            <div class="col-sm-6 container text-center pb-5">
+                <h5 class="fw-bolder">LET'S WORK TOGETHER!</h5>
+            </div> 
+        </a>     
 
-        <div>
-            <img class="img-footer" src="../assets/img/redes.png" alt="my-social-media"> 
-        </div>
-
-        <div>
+        <div class="pb-2 col-sm-12 container text-center">
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid" src="../assets/img/logo-aleOlvera.png" alt="Logo" width="180">
+            </a> 
+        </div>  
+        <div class="pb-5 col-sm-12 container text-center">
             Copyright &copy; 2023 ALE OLVERA - All rights reserved.
         </div>
     </footer>

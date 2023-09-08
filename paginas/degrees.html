@@ -4,62 +4,236 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- SEO -->
+    <!-- Descripción -->
+    <meta name="description" content="Hola soy Ale Olvera, UX/UI Designer | Frontend Dev React Student | Sr. Visual Designer y este es mi portafolio.">
+
+    <!-- Keywords -->
+    <meta name="keywords" content="Portafolio, design-portafolio-website, best-ux-ui-portafolios,portfolio-front-end-junior, ux-ui-designer-portfolio, frontend-portfolio, designer-portfolio, frontend-portfolio-projects, frontend-portfolio-github">
+
     <!--Favicon-->
     <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+    
+
+    <!-- Bootstrap JavaScript -->
+    <script src="../libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../libs/bootstrap/js/jquery.min.js"></script><script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
     <!-- Titulo -->
-    <title>ALE OLVERA-DEGREES Work</title>
+    <title>ALE OLVERA-DEGREES</title>
 </head>
 
 <body>
-    <!-- logo -->
-    <header><img class="img-header" src="../assets/img/logo-aleOlvera.png"></header>
 
     <!-- Menu -->
-    <nav id="barra-navegacion">
-        <ul>
-            <li>
-                <a href="../index.html">HOME</a>
-            </li>
+    <nav class="barra-navegacion navbar navbar-dark navbar-expand-lg">
+        <div class="ms-5 container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img class="img-fluid" src="../assets/img/logo-aleOlvera.png" alt="Logo" width="170">
+            </a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse ps-5 " id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">UX UI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../paginas/design.html">DESIGN</a>
+                </li>
+                <li class="pag-visit nav-item">
+                    <a class="nav-link active" href="../paginas/degrees.html">DEGREES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../paginas/contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+
+    <!-- Main -->
+    <main class="back">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="mb-5 mt-5">
+                    <h1 class="fw-bolder">Certified and Empowered to Succeed.</h1>
+                </div>   
+            </div>      
+        </div>
+    </main>
+
+
+    <div class="backSecundario">
         
-            <li>
-                <a href="../paginas/ux-ui.html">UX UI</a>
-            </li>
+    <!-- Gallery -->
+    <div class="container text-center">
+        <div class="row align-items-center">
+            <div class="mt-5 col-lg-6">
+                <img src="../assets/img/uxui.png" class="img-fluid" alt="UxUiDegree">
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <img src="../assets/img/scrum-fundamentals.png" class="img-fluid" alt="ScrumCertificate">
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <img src="../assets/img/coursera.png" class="img-fluid" alt="LeanCertificate">
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <img src="../assets/img/desarrollo-web.png" class="img-fluid" alt="WebDevelopmentCourse">
+            </div>
+        </div>
+    </div>
 
-            <li>
-                <a href="../paginas/design.html">DESIGN</a>
-            </li>
+    <hr class="mb-5 mt-5">
 
-            <li class="pag-visit">
-                <a href="#"><h4>DEGREES</h4></a>
-            </li>
+    <!-- Carrousel Marcas -->
+    <div class="text-center">
+        <h3 class="fw-bolder mt-5">Collaborating with Top Brands</h3>
+    </div>
 
-            <li>
-                <a href="../paginas/contact.html">CONTACT</a>
-            </li>
-        
-        </ul>
-    </nav>  
+    <!-- DESKTOP -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
 
+        <div class="carousel-inner d-none d-md-block">
+            <div class="carousel-item active text-center">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="../assets/img/marcas/1.png" class="d-block mx-auto" alt="marca1" width="350">
+                    </div>
+                    <div class="col-4">
+                        <img src="../assets/img/marcas/2.png" class="d-block mx-auto" alt="marca2" width="350">
+                    </div>
+                    <div class="col-4">
+                        <img src="../assets/img/marcas/3.png" class="d-block mx-auto" alt="marca3" width="350">
+                    </div>
+                </div>
+            </div>    
+            <div class="carousel-item text-center">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="../assets/img/marcas/4.png" class="d-block mx-auto" alt="marca4" width="350">
+                    </div>
+                    <div class="col-4">
+                        <img src="../assets/img/marcas/5.png" class="d-block mx-auto" alt="marca5" width="350">
+                    </div>
+                    <div class="col-4">
+                        <img src="../assets/img/marcas/6.png" class="d-block mx-auto" alt="marca6" width="350">
+                    </div>
+                </div>
+            </div>    
+            <div class="carousel-item text-center">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="../assets/img/marcas/7.png" class="d-block mx-auto" alt="marca7" width="350">
+                    </div>
+                    <div class="col-4">
+                        <img src="../assets/img/marcas/8.png" class="d-block mx-auto" alt="marca8" width="350">
+                    </div>
+                </div>
+            </div>    
+        </div>   
+            
+    <!-- Controles dentro del mismo contenedor del carrusel -->
+    <a class="carousel-control-prev d-none d-md-block" href="#carouselExampleAutoplaying" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next d-none d-md-block" href="#carouselExampleAutoplaying" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+    </div>
 
+    <!-- MOBILE -->
+    <div id="carouselExampleAutoplayingMobile" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner d-block d-md-none">
+            <div class="carousel-item active text-center">
+                <img src="../assets/img/marcas/1.png" class="d-block mx-auto" alt="marca1" width="300">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="../assets/img/marcas/2.png" class="d-block mx-auto" alt="marca2" width="300">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="../assets/img/marcas/3.png" class="d-block mx-auto" alt="marca3" width="300">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="../assets/img/marcas/4.png" class="d-block mx-auto" alt="marca4" width="300">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="../assets/img/marcas/5.png" class="d-block mx-auto" alt="marca5" width="300">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="../assets/img/marcas/6.png" class="d-block mx-auto" alt="marca6" width="300">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="../assets/img/marcas/7.png" class="d-block mx-auto" alt="marca7" width="300">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="../assets/img/marcas/8.png" class="d-block mx-auto" alt="marca8" width="300">
+            </div>
+        </div>    
 
+    <!-- Controles dentro del mismo contenedor del carrusel -->
+    <a class="carousel-control-prev d-block d-md-none" href="#carouselExampleAutoplayingMobile" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next d-block d-md-none" href="#carouselExampleAutoplayingMobile" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+    </div>
 
+    <hr class="mb-5 mt-5">
 
+    <div class="text-center">
+        <h3 class="fw-bolder mt-5">More of my work</h3>
+    </div>
+
+    <div class="container text-center">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-lg-6 mb-5 mt-3">
+                <a href="./paginas/ux-ui.html">
+                    <button class="btn btn:hover">MY CURRICULUM</button>
+                </a>
+            </div>
+            <div class="col-sm-12 col-lg-6 mb-5">
+                <a href="./paginas/ux-ui.html">
+                    <button class="btn btn:hover">MY LOGOFOLIO</button>
+                </a>
+            </div>
+        </div>        
+    </div>
 
     <!-- Footer -->
-    <footer>
-        <div>
-            <h3>LET'S WORK TOGETHER!</h3>
-        </div>
-
-        <div>
-            <img class="img-footer" src="../assets/img/redes.png" alt="my-social-media"> 
-        </div>
+    <footer class="back">
+        <a class="pag-visit" href="https://linktr.ee/Ale.Olv3ra?utm_source=linktree_admin_share">
+            <div class="col-sm-6 container text-center pt-5 pb-2">
+                <img class="img-footer img-fluid" src="../assets/img/werk.png" alt="my-social-media" width="40"> 
+            </div>
         
-        <div>
+            <div class="col-sm-6 container text-center pb-5">
+                <h5 class="fw-bolder">LET'S WORK TOGETHER!</h5>
+            </div> 
+        </a>     
+
+        <div class="pb-2 col-sm-12 container text-center">
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid" src="../assets/img/logo-aleOlvera.png" alt="Logo" width="180">
+            </a> 
+        </div>  
+        <div class="pb-5 col-sm-12 container text-center">
             Copyright &copy; 2023 ALE OLVERA - All rights reserved.
         </div>
     </footer>

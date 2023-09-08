@@ -28,6 +28,7 @@ body{
     text-decoration-style:solid;
     text-decoration-thickness: 4px; 
     text-decoration-color: $color-acento;
+    color: $color-secundario
 }
 
 
@@ -94,16 +95,9 @@ body{
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
-
-
-
-
-/* footer */
-footer {
-    background-color: $color-primario;
-    color: $color-secundario;
-}
-
-.img-footer {
-    width: 20%;
+.imgnormalizada img {
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
